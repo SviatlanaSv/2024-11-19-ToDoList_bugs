@@ -20,7 +20,8 @@ Medium priority:
  
 1. The “active” button is written with a small letter, compared to the others.
 2. The panel for sorting and deleting tasks (at the bottom of the task list) is poorly visible (dull color).
+3. Not adapted to the screen of a cell phone. The main window with the list of tasks does not expand on the mobile screen
  
 Low priority:
  
-1. Moving to the sorting and deleting panel is inconvenient when there are a large number of tasks
+1. Moving to the sorting and deleting panel is inconvenient when there are a large number of tasks.
