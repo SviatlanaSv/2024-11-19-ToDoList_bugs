@@ -23,4 +23,4 @@ Medium priority:
  
 Low priority:
  
-1. Moving to the sorting and deleting panel is inconvenient when there are a large number of tasks.
+1. Moving to the sorting and deleting panel is inconvenient when there are a large number of tasks
