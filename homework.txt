@@ -1,0 +1,26 @@
+Found bugs on the web page https://todolist.james.am/#/
+ 
+I. FUNCTIONALITY
+ 
+High priority:
+ 
+1. Unable to delete all active tasks with the “Clear” button; only one at a time by clicking the delete icon at the end of each task's linebar.
+2.  When all tasks are displayed, the “Clear” button deletes only completed tasks.
+3. When only active tasks are displayed, the “Clear” button removes tasks from the “Completed” list.
+4. The task counter “<number> items left” shows an incorrect value (one number less).
+ 
+Low priority:
+ 
+1. No marks for edited tasks.
+ 
+ 
+II. USER INTERFACE
+ 
+Medium priority:
+ 
+1. The “active” button is written with a small letter, compared to the others.
+2. The panel for sorting and deleting tasks (at the bottom of the task list) is poorly visible (dull color).
+ 
+Low priority:
+ 
+1. Moving to the sorting and deleting panel is inconvenient when there are a large number of tasks.
