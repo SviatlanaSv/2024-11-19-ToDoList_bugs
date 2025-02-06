@@ -1,27 +1,49 @@
-Found bugs on the web page https://todolist.james.am/#/
- 
-I. FUNCTIONALITY
- 
-High priority:
- 
-1. Unable to delete all active tasks with the “Clear” button; only one at a time by clicking the delete icon at the end of each task's linebar.
-2.  When all tasks are displayed, the “Clear” button deletes only completed tasks.
-3. When only active tasks are displayed, the “Clear” button removes tasks from the “Completed” list.
-4. The task counter “<number> items left” shows an incorrect value (one number less).
- 
-Low priority:
- 
-1. No marks for edited tasks.
- 
- 
-II. USER INTERFACE
- 
-Medium priority:
- 
-1. The “active” button is written with a small letter, compared to the others.
-2. The panel for sorting and deleting tasks (at the bottom of the task list) is poorly visible (dull color).
-3. Not adapted to the screen of a cell phone. The main window with the list of tasks does not expand on the mobile screen
- 
-Low priority:
- 
-1. Moving to the sorting and deleting panel is inconvenient when there are a large number of tasks.
+# Bug Report - ToDo List Web Page
+
+This document outlines the bugs and issues found on the web page [https://todolist.james.am/#/](https://todolist.james.am#/). The identified issues are categorized into **Functionality** and **User Interface** issues, with each bug prioritized accordingly.
+
+## I. FUNCTIONALITY
+
+### High Priority Bugs
+
+1. **Unable to delete all active tasks with the "Clear" button**  
+   The "Clear" button currently only deletes one task at a time by clicking the delete icon at the end of each task's line. It should be able to clear all active tasks at once.
+
+2. **"Clear" button deletes only completed tasks when all tasks are displayed**  
+   When all tasks are visible, the "Clear" button only removes completed tasks instead of clearing both active and completed tasks as expected.
+
+3. **"Clear" button removes tasks from the "Completed" list when only active tasks are displayed**  
+   When viewing only active tasks, the "Clear" button mistakenly removes tasks from the "Completed" list, which should not happen.
+
+4. **Task counter displays incorrect value ("<number> items left")**  
+   The task counter that indicates the number of remaining tasks shows a value that is one less than the actual number of tasks. This leads to an incorrect count being displayed.
+
+### Low Priority Bugs
+
+1. **No marks for edited tasks**  
+   There is no visual indication or mark for tasks that have been edited, making it hard for users to distinguish between original and modified tasks.
+
+## II. USER INTERFACE
+
+### Medium Priority Bugs
+
+1. **"Active" button written in lowercase**  
+   The "Active" button is written in lowercase letters, unlike the other buttons, which follow a consistent capitalized style. This creates a visual inconsistency.
+
+2. **Sorting and deleting panel poorly visible**  
+   The panel used for sorting and deleting tasks (located at the bottom of the task list) is poorly visible due to the dull color, making it hard for users to notice and interact with.
+
+3. **Not mobile-friendly**  
+   The main window, which displays the list of tasks, does not expand properly on mobile screens. This prevents the page from being fully functional on mobile devices, as the tasks are not displayed optimally.
+
+### Low Priority Bugs
+
+1. **Inconvenient panel navigation with large number of tasks**  
+   When there is a large number of tasks, navigating to the sorting and deleting panel becomes inconvenient, making it harder for users to interact with these features.
+
+---
+
+## Conclusion
+
+These bugs and issues, if addressed, would significantly improve the user experience and functionality of the ToDo List web page. Fixing the functionality issues will make the task management more intuitive, while improving the user interface will make the site more accessible and visually consistent across devices.
+
